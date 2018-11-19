@@ -1,0 +1,24 @@
+{
+  "name": "node-tests",
+  "version": "1.0.0",
+  "description": "Starting the Node.js tests studies",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha tests/*",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marciomarquessouza/note-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marciomarquessouza/note-tests/issues"
+  },
+  "homepage": "https://github.com/marciomarquessouza/note-tests#readme",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^5.2.0"
+  }
+}
